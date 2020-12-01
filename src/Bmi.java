@@ -1,9 +1,3 @@
-class BmiService {
-    public double calculate(double growth, double weight) {
-        return weight/(growth*growth)*100.00;
-    }
-}
-
 public class Bmi {
     public static void main(String[] args) {
         BmiService service = new BmiService();
@@ -13,4 +7,5 @@ public class Bmi {
         System.out.println(bmi);
     }
 }
+
 
